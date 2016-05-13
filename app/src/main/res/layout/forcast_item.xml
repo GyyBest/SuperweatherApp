@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <!--android:background="@drawable/forcastbg"-->
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout  android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView android:id="@+id/fwinds"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#2F4F4F"
+                    android:paddingLeft="20dp"
+                    android:layout_gravity="center"
+                    android:textSize="12dp"
+                    android:text="风力"
+                    />
+
+                <TextView android:id="@+id/ftempe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:textColor="#FFFF00"
+                    android:textSize="14dp"
+                    android:text="温度"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ficon"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout  android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView android:id="@+id/ftdate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="#E0FFFF"
+                    android:text="时间：2012年12月12日"
+                    />
+
+                <TextView android:id="@+id/ftweek"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textColor="#E0FFFF"
+                    android:textSize="12dp"
+                    android:text="星期：星期三"
+                    />
+            </LinearLayout>
+
+            <TextView android:id="@+id/fweather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FAFAD2"
+                android:gravity="bottom"
+                android:textSize="16dp"
+                android:text="晴"
+                />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:orientation="horizontal"
+    android:background="#44EEE8AA"
+    >
+
+    <ImageView android:id="@+id/valueimage"
+        android:contentDescription="@string/app_name"
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#8B4513"
+        android:id="@+id/lifevalue">
+    </TextView>
+
+</LinearLayout>
